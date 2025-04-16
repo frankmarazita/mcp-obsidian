@@ -44,7 +44,8 @@ There are two ways to configure the environment with the Obsidian REST API Key.
     ],
     "env": {
       "OBSIDIAN_API_KEY": "<your_api_key_here>",
-      "OBSIDIAN_HOST": "<your_obsidian_host>"
+      "OBSIDIAN_HOST": "<your_obsidian_host>",
+      "OBSIDIAN_PORT": "<your_obsidian_port>"
     }
   }
 }
@@ -55,6 +56,7 @@ There are two ways to configure the environment with the Obsidian REST API Key.
 ```
 OBSIDIAN_API_KEY=your_api_key_here
 OBSIDIAN_HOST=your_obsidian_host
+OBSIDIAN_PORT=your_obsidian_port
 ```
 
 Note: You can find the key in the Obsidian plugin config.
